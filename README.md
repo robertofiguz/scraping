@@ -3,6 +3,10 @@
   - [scrapy](https://scrapy.org/)
   - [zyte](https://www.zyte.com/) - Paid crawling hub - runs scrapy spiders
 
+## Sugested reads:
+- [Crawl the web politely](https://www.zyte.com/blog/how-to-crawl-the-web-politely-with-scrapy/)
+- [5 useful tips to use scrapy](https://medium.com/geekculture/5-useful-tips-while-working-with-python-scrapy-6beb59119188)
+
 ## Sample:
   - ## Crawler like:
     - This code will crawl all pages in the worten website by entering every link on every page as long as its domain is "worten.pt" - how deep the crawling goes can be defined in the ```settings.py``` (will be explained ahead)
