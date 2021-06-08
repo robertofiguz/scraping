@@ -110,6 +110,8 @@ class futah(scrapy.Spider):
         Futtah has an "all products page" even though, its content is dynamically loaded therefore my strategy was manually loading the page fully and download its HTML. Afterwards, I loaded the local page into scrapy shell(instructions ahead) and extracted the links as seen in the example above.
   - In other cases small details such as the query in the URL allow us to increment the number of items per page indefinitely making the job much easier.
   
+  - For websites with pagination we can detect the "next page" url and scrape it using recursion.
+  
 # Using scrapy shell details extraction:
   - scrapy shell is a shell command that runs in python and can be used to debug and build the spiders. To start scrapy you can use the command:
     ``` 
